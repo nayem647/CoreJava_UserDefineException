@@ -9,7 +9,7 @@ public class LaundryUtility {
 	public static void main(String[] args) {
 		
 		Fabric fabric = new Tshirt("Slik");
-		
+		//Hai nayeem i pushing back the code
 		try {
 			fabric.washTshirt(fabric);
 		}catch(TshirtException e) {
